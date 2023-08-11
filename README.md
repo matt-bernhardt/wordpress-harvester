@@ -6,6 +6,12 @@ CLI app for harvesting content from WordPress via its REST API.
 
 This section describes how to use this tool for its intended purpose. TBD.
 
+At the moment, I'm thinking that the ideal command will end up being something
+like:
+```
+pipenv run wordpress_harvester -h https://libraries.mit.edu/ -e pages -e posts -e experts -e locations
+```
+
 ## Development
 
 - To install with dev dependencies: `make install`
